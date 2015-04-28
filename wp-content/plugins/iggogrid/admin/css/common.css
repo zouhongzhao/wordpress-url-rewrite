@@ -1,0 +1,155 @@
+/**
+ * CSS code for all IggoGrid admin screens
+ *
+ * @package IggoGrid
+ * @subpackage Views CSS
+ * @author Tobias Bäthge
+ * @since 1.0.0
+ */
+
+/* Margins for messages on screens */
+#iggogrid-page div.updated,
+#iggogrid-page div.error {
+	margin: 10px 0 0;
+}
+
+/* Nav Tab Menu */
+#iggogrid-nav .separator {
+	margin: 6px;
+}
+#iggogrid-nav .nav-tab {
+	border-bottom: 1px solid #cccccc;
+}
+#iggogrid-nav .nav-tab-active {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+/* Add New Table form */
+#iggogrid_add-add-table .form-wrap {
+	max-width: 500px;
+}
+#iggogrid_add-add-table .form-field {
+	margin: 0;
+}
+/* Number of rows/columns in the "Add New Table" form */
+#iggogrid_add-add-table .form-field-small {
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+}
+
+/* Placeholder fields in gray text color, but only if JS is enabled */
+.js #iggogrid-page .placeholder-active {
+	color: #bbbbbb;
+}
+
+/* Width of the columns on the "All Tables" list */
+.iggogrid-all-tables thead .column-table_id {
+	width: 50px;
+}
+.iggogrid-all-tables thead .column-table_name {
+	width: 30%;
+}
+.iggogrid-all-tables thead .column-table_author {
+	width: 12%;
+}
+.iggogrid-all-tables thead .column-table_last_modified {
+	width: 15%;
+}
+/* Font weight for the table ID column */
+.iggogrid-all-tables tbody .column-table_id {
+	font-weight: bold;
+}
+
+/* Search results for WP_List_Table */
+#iggogrid-page .subtitle {
+	float: left;
+	padding-left: 0;
+}
+
+/* Inline Shortcodes, in texts */
+#iggogrid-page .table-shortcode-inline {
+	background: transparent;
+	border: none;
+	color: #333333;
+	width: 110px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: top;
+}
+#iggogrid-page .table-shortcode {
+	cursor: text;
+}
+
+/* Table ID/name dropdown on "Export" screen */
+#iggogrid-page #tables-export {
+	width: 100%;
+	height: auto;
+}
+
+/* Red border for form fields that have invalid values */
+#iggogrid-page form :invalid,
+#iggogrid-page form .invalid {
+	border-color: #cc0000 !important;
+}
+
+/* Tables in postboxes (on the "Edit" and "Plugin Options" screens) */
+.iggogrid-postbox-table {
+	border-spacing: 0;
+	max-width: 1000px;
+	width: 100%;
+}
+/* Default column widths */
+.iggogrid-postbox-table .column-1 {
+	width: 25%;
+}
+.iggogrid-postbox-table .column-2 {
+	width: 75%;
+}
+.iggogrid-postbox-table th {
+	text-align:left;
+	font-weight: normal;
+}
+.iggogrid-postbox-table th,
+.iggogrid-postbox-table td {
+	padding: 2px;
+	word-wrap: break-word;
+}
+.iggogrid-postbox-table .top-border th,
+.iggogrid-postbox-table .top-border td {
+	padding-top: 6px;
+}
+.iggogrid-postbox-table .bottom-border th,
+.iggogrid-postbox-table .bottom-border td {
+	padding-bottom: 6px;
+	border-bottom: 1px solid #eeeeee;
+}
+.iggogrid-postbox-table .top-align {
+	vertical-align: top;
+	padding-top: 6px;
+}
+/* Adjust positioning of labels in relation to checkboxes/radio buttons */
+#iggogrid_edit-table-options .column-2 label,
+#iggogrid_edit-datatables-features .column-2 label {
+	vertical-align: top;
+}
+#iggogrid_import-import-form .column-2 label,
+#iggogrid_import-import-wp-table-reloaded .column-2 label {
+	vertical-align: top;
+	margin-right: 20px; /* some margin on radio buttons */
+}
+#iggogrid-page input,
+#iggogrid-page .button {
+	vertical-align: middle;
+}
+#iggogrid-page .widefat th input {
+	vertical-align: text-top;
+}
+/* Red color for the "Uninstall IggoGrid" button on the "Plugin Options" screen */
+#uninstall-iggogrid {
+	color: #BC0B0B;
+}
