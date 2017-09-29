@@ -1,0 +1,267 @@
+.page-title.container{
+	width: 100%;
+}
+.page-title h1{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.jasenyritykset,.jasenyritykset-city-index,.jasenyritykset-city,.jasenyritykset-postcode,
+.jasenyritykset-city-index,.jasenyritykset-marketing{
+	padding-top:0px !important;
+}
+.blog{
+	width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+.categoryNavigation{
+	display: inline-block;
+	vertical-align: middle;
+}
+.categoryNavigation a{
+	padding: 0px 5px;
+    text-decoration: underline;
+}	
+.categorySearch{
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+.categorySearch label{
+	font-size: 0.813rem;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+.categorySearch .search-keyword{
+	border: 1px solid #ddd;
+    box-shadow: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0.813rem;
+    margin: 0px;
+}
+.categorySearch button.select_class{
+	margin: 0px;
+    background: #ddd;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    padding: 0px 10px;
+    height: 30px;
+    float: right;
+}
+.categorySearch button.select_class:hover,.categorySearch button.select_over{
+	margin: 0px;
+    padding: 0px 10px;
+    height: 30px;
+    float: right;
+	background: #b7b7b7;
+    box-shadow: none;
+    border: 1px solid #b7b7b7;
+}
+.categories-list ul{
+	width:100%;
+	clear:both;
+	overflow:hidden;
+	margin-top: 0px;
+}
+
+.categories-list ul li ul{
+	margin-top: 5px;
+}
+
+.categories-list ul li{
+	margin: 0px;
+    list-style: none;
+}
+.categories-list > ul > li{
+	width: 100%;
+    float: none;
+	margin-bottom: 20px;
+}
+
+.categories-list > ul > li .item-title > a{
+	font-size: 1.4rem;
+	text-decoration: underline;
+}
+
+.categories-list > ul > li ul li{
+	display: inline-block;
+    float: left;
+    padding-right: 10px;
+    min-width: 140px;
+}
+
+.categories-list > ul > li ul li .item-title > a{
+	font-size: 0.813rem;
+	text-decoration: underline;
+	padding: 5px 0px;
+    display: block;
+}
+.blog h2{
+	font-size: 18px;
+}
+.cat-children h3{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.cat-children div{
+	min-width: 160px;
+	float:left		
+} 
+.cat-children div a{
+	font-size: 0.813rem;
+	text-decoration: underline;
+	padding: 5px 0px;
+    display: block;
+	font-weight: normal;
+}	
+.jasenyritykset-city-box{
+	width:31%;
+	float:left;
+	margin-left:calc( (100% - 3 * 31%) / 2);
+	margin-bottom:20px;
+}
+
+.jasenyritykset-city-box:nth-child(3n+1){
+	margin-left:0px;
+	clear:left;
+}
+.jasenyritykset-items{
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+	    margin-top: 30px;
+}
+.jasenyritykset-link{
+	width: 100%;
+    margin-top: 20px;
+    text-align: right;
+    display: block;
+}
+.jasenyritykset-postcode .blog h2{
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+@media (min-width: 48em){
+	.jasenyritykset .categoryNavigation {
+	    display: block;
+	    vertical-align: middle;
+	    width: 100%;
+	    clear: both;
+	    overflow: hidden;
+	    margin-bottom: 1.5rem;
+	}
+	.jasenyritykset  .categorySearch {
+	    display: block;
+	    float: right;
+	    vertical-align: middle;
+	    margin-top: 0px;
+	    clear: both;
+	    margin-bottom: 1.5rem;
+	}
+}
+@media (min-width: 62em){
+	.jasenyritykset .categoryNavigation {
+		display: inline-block;
+		vertical-align: middle;
+		width: auto;
+	}
+	.jasenyritykset  .categorySearch {
+	    display: inline-block;
+	    float: right;
+	    vertical-align: middle;
+	    margin-top: 0px;
+	}
+}
+@media (min-width: 75em){
+	.jasenyritykset .categoryNavigation {
+		display: inline-block;
+		vertical-align: middle;
+		    width: auto;
+	}
+	.jasenyritykset  .categorySearch {
+	    display: inline-block;
+	    float: right;
+	    vertical-align: middle;
+	    margin-top: 0px;
+	}
+}
+/* Large devices (desktops, less than 75em) */
+@media (max-width: 74.9em) { 
+	
+}
+
+/* Medium devices (tablets, less than 62em) */
+@media (max-width: 61.9em) { 
+	.jasenyritykset-city-box{
+		width:50%;
+		float:left;
+		margin:0px;
+		margin-bottom:20px;
+		padding-right:10px;
+	}
+	.jasenyritykset-city-box:nth-child(3n+1){
+		margin-left:0px;
+		clear:none;
+	}
+	.jasenyritykset-city-box:nth-child(2n+1){
+		clear: left;
+	}
+	.jasenyritykset-city-box:nth-child(2n){
+		padding-right:0px;
+		padding-left:10px;
+	}
+	.jasenyritykset-city-index .cat-children div {
+	    min-width: 140px;
+	    float: left;
+	}
+}
+
+/* Small devices (landscape phones, less than 48em) */
+@media (max-width: 47.9em) { 
+	.jasenyritykset-city-box{
+		width:100%;
+		float:none;
+		margin:0px;
+		margin-bottom:20px;
+		padding-right:0px;
+		padding-left:0px;
+	}
+	.jasenyritykset-city-box:nth-child(2n){
+		padding-right:0px;
+		padding-left:0px;
+	}
+	.jasenyritykset .categoryNavigation {
+	    display: block;
+	    vertical-align: middle;
+	    width: 100%;
+	    clear: both;
+	    overflow: hidden;
+	    margin-bottom: 1.5rem;
+	}
+	.jasenyritykset  .categorySearch {
+	    display: block;
+	    float: right;
+	    vertical-align: middle;
+	    margin-top: 0px;
+	    clear: both;
+	    margin-bottom: 1.5rem;
+	}
+	.categorySearch{
+	    margin-bottom: 20px;
+    	margin-top: 15px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 34em) */
+@media (max-width: 33.9em) { 
+
+}
+	
+}
+/* page jasenyritykset css stop*/
